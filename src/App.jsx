@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     if (darkMode) {
@@ -200,8 +200,8 @@ export default function App() {
             <div className="relative w-48 h-48 mb-8">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full opacity-5"></div>
               <img
-                src="/src/assets/profile.jpeg"
-                alt="Dhruv Patel"
+                src="./assets/profile.jpeg"
+                alt="Profile"
                 className="w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-lg"
               />
             </div>
